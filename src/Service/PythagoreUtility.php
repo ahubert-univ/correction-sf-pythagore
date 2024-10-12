@@ -14,7 +14,7 @@ final readonly class PythagoreUtility
 
             for ($j = 1; $j <= 10; $j++) {
                 if ($i === 0) {
-                    $html .=  "<td> " . $j . "</td>";
+                    $html .=  sprintf("<td>%s</td>", $j );
                 } else if ($i === $j) {
                     $html .=  "<td> X </td>";
                 } else {
